@@ -55,3 +55,8 @@ List<string> urunler = new List<string>  // sanal veritabani
 ```
 > **Not:**
 - CSharp kodu calisacaksa onune mutlaka **@** isareti konmali.
+
+#### Razor Ifadeleri
+- @Deneme -> Ortuk Razor ifadesi
+- @(deneme - deneme2) -> Acik Razor ifadesi
+- @{...} -> Razor kod bloklari

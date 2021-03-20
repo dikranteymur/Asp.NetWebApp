@@ -1,0 +1,9 @@
+@* Razor (Goruntu Motoru) *@
+
+@* @ isareti acildigi zaman cs'a gecer *@
+@foreach (var item in ViewBag.x)
+{
+    @* Sadece item yazarsak ekrana 'item' yazar. Icerigi yazmaz *@
+    @* CSharp'a gecmek icin her zaman onune @ isareti konur. *@
+    <p>@item</p>
+}

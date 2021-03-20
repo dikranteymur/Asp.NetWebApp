@@ -15608,6 +15608,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/mdt/Documents/Projelerim/MVCProjeleri/ViewYazmak/Views/UrunIslemleri/Index.cshtml",
+      "TargetPath": "Views\\UrunIslemleri\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/mdt/Documents/Projelerim/MVCProjeleri/ViewYazmak/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -15620,6 +15625,11 @@
     {
       "FilePath": "/Users/mdt/Documents/Projelerim/MVCProjeleri/ViewYazmak/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/mdt/Documents/Projelerim/MVCProjeleri/ViewYazmak/Views/Merhaba/ViewliHosgeldiniz.cshtml",
+      "TargetPath": "Views\\Merhaba\\ViewliHosgeldiniz.cshtml",
       "FileKind": "mvc"
     },
     {

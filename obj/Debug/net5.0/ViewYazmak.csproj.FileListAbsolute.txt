@@ -37,3 +37,5 @@
 /Users/mdt/Documents/Projelerim/MVCProjeleri/ViewYazmak/obj/Debug/net5.0/ViewYazmak.pdb
 /Users/mdt/Documents/Projelerim/MVCProjeleri/ViewYazmak/obj/Debug/net5.0/ViewYazmak.genruntimeconfig.cache
 /Users/mdt/Documents/Projelerim/MVCProjeleri/ViewYazmak/obj/Debug/net5.0/ViewYazmak.csproj.CopyComplete
+/Users/mdt/Documents/Projelerim/MVCProjeleri/ViewYazmak/obj/Debug/net5.0/Razor/Views/Merhaba/ViewliHosgeldiniz.cshtml.g.cs
+/Users/mdt/Documents/Projelerim/MVCProjeleri/ViewYazmak/obj/Debug/net5.0/Razor/Views/UrunIslemleri/Index.cshtml.g.cs

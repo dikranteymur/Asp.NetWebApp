@@ -4,7 +4,16 @@
 @model List<string>
 
 @* Model butuk harfle yazilir *@
-@foreach (var item in Model)
-{
+@* @foreach (var item in Model)
+    {
     <p>@item</p>
-}
+    } *@
+
+@* Yeni Gosterim *@
+
+<ol>
+    @foreach (var item in Model)
+    {
+        <li>@item</li>
+    }
+</ol>

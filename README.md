@@ -50,7 +50,7 @@ List<string> urunler = new List<string>  // sanal veritabani
 @foreach (var item in ViewBag.x)
 {
     <p>item</p>     // Ekrana urunler.Length kadar 'item' yazar
-    <p>@item</p>    // Ekran urunler listesinde bulunan string'ler yazilir
+    <p>@item</p>    // Ekrana urunler listesinde bulunan string'ler yazilir
 }
 ```
 > **Not:**

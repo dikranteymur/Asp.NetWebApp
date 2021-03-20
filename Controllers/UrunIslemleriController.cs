@@ -19,8 +19,11 @@ namespace ViewYazmak.Controllers
         public IActionResult Index()  // listeleme islemleri Index ile yapilir (CRUD ---> R)
         {
             // ViewBag dinamik oldugu icin x yerine istedigimiz bir isim verebiliriz.
-            ViewBag.x = urunler;
-            return View();
+            // ViewBag.x = urunler;
+            // return View();
+
+            // Model kullanmak
+            return View(urunler);
         }
 
     }

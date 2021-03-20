@@ -60,3 +60,40 @@ List<string> urunler = new List<string>  // sanal veritabani
 - @Deneme -> Ortuk Razor ifadesi
 - @(deneme - deneme2) -> Acik Razor ifadesi
 - @{...} -> Razor kod bloklari
+
+## ViewBag Yerine Model Kullanmak
+- Model dosyasinda  -> `return View(model_ismi)` 
+- View dosyasinda   -> `@model <model tipi>` Kullanirken: `Model`
+
+```cs
+// Controllers/UrunIslemleriController.cs
+List<string> urunler = new List<string>  // sanal veritabani
+    {
+        "kalem",
+        "silgi",
+        "defter",
+        "kitap",
+        "kalemtras",
+        "cikolata"
+    };
+
+    // IDE'ye mvc yaparsak mvc ile alakali snippet'ler gelir
+    public IActionResult Index()  // listeleme islemleri Index ile yapilir (CRUD ---> R)
+    {
+        // ViewBag dinamik oldugu icin x yerine istedigimiz bir isim verebiliriz.
+        // ViewBag.x = urunler;
+        //return View();
+        return View(urunler);
+    }
+```
+
+```cs
+// Views/UrunIslemleri/Index.cshtml
+@model List<string>  // Gelen model tipi
+
+@foreach (var item in Model)
+{
+    <p>item</p>     // Ekrana urunler.Length kadar 'item' yazar
+    <p>@item</p>    // Ekrana urunler listesinde bulunan string'ler yazilir
+}
+```
